@@ -2,7 +2,7 @@ package models;
 
 import java.time.LocalDate;
 
-public class BooklingModel {
+public class BookingModel {
 
 	private String id;
 	private String reserveName;
@@ -50,7 +50,7 @@ public class BooklingModel {
 		this.numberGuest = numberGuest;
 	}
 
-	public BooklingModel(String id, String reserveName, LocalDate checkIn, LocalDate checkOut, int numberGuest) {
+	public BookingModel(String id, String reserveName, LocalDate checkIn, LocalDate checkOut, int numberGuest) {
 		super();
 		this.id = id;
 		this.reserveName = reserveName;
