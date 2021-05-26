@@ -4,11 +4,12 @@ import java.time.Period;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import com.example.tdd.models.BookingModel;
 import com.example.tdd.repositories.BookingRepository;
 
-import models.BookingModel;
-
+@Service
 public class BookingService {
 
 	@Autowired

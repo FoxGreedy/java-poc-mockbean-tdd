@@ -14,10 +14,9 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import com.example.tdd.models.BookingModel;
 import com.example.tdd.repositories.BookingRepository;
 import com.example.tdd.services.BookingService;
-
-import models.BookingModel;
 
 @RunWith(SpringRunner.class)
 public class BookingServiceTest {

@@ -1,9 +1,14 @@
-package models;
+package com.example.tdd.models;
 
 import java.time.LocalDate;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class BookingModel {
 
+	@Id
 	private String id;
 	private String reserveName;
 	private LocalDate checkIn;
